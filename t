@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="防護團耗材">
+<meta name="theme-color" content="#0d1f35">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230d1f35'/%3E%3Ctext y='.9em' font-size='72' x='14'%3E◈%3C/text%3E%3C/svg%3E">
+<title>防護團耗材管理</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    width: 100%; height: 100%;
+    background: #0d1f35;
+    overflow: hidden;
+  }
+  iframe {
+    display: block;
+    width: 100%;
+    /* 全螢幕高度，扣掉狀態列 safe area */
+    height: calc(100% - env(safe-area-inset-top, 0px));
+    margin-top: env(safe-area-inset-top, 0px);
+    border: none;
+    background: #0d1f35;
+  }
+</style>
+</head>
+<body>
+<!-- ↓↓ 把下面的 src 換成你的 GAS 網址 ↓↓ -->
+<iframe
+  src=https://script.google.com/macros/s/AKfycbwRG3tpMEV53C2SBJInF9KtabhodyYWHNDpK3GEhMgXTuWHw639MLhjTJMm1LVsavLc/exec
+  allowfullscreen
+  allow="fullscreen"
+></iframe>
+</body>
+</html>
